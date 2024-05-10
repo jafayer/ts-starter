@@ -28,3 +28,6 @@ jobs:
 
       - name: Run Jest
         run: npm run test
+
+      - name Run Build Script
+        run: npm run build
