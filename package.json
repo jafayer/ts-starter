@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rollup -c",
     "build:prod": "rollup -c && NODE_ENV=production rollup -c",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'tsx src/index.ts'",
+    "dev": "nodemon",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
