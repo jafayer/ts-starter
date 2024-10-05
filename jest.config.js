@@ -5,10 +5,11 @@ module.exports = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  testMatch: ['**/tests/**/*.(spec|test).(ts|js)'],
+  testMatch: ['**/*.(spec|test).(ts|js)'],
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.json',
     },
   },
+  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
 };
